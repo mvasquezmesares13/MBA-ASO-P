@@ -27,7 +27,7 @@ jobs:
         run: python -m unittest -v test
 
   SonarCloud Scan:
-    name: SonarCloud Scan
+    name: SonarCloud
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
